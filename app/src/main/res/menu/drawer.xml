@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/main"
+            android:checked="true"
+            android:icon="@drawable/ic_home_black"
+            android:title="@string/navdrawerlogInOrSignUp" />
+
+        <item
+            android:id="@+id/shoppingitemlist"
+            android:checked="false"
+            android:icon="@drawable/ic_shopping_cart_black"
+            android:title="@string/navdrawershoppinglist" />
+
+        <item
+            android:id="@+id/createshoppingitem"
+            android:checked="false"
+            android:icon="@drawable/ic_add_shopping_cart_black"
+            android:title="@string/navdrawercreateshoppingitem" />
+
+        <item
+            android:id="@+id/productlist"
+            android:checked="false"
+            android:icon="@drawable/ic_menu_black"
+            android:title="@string/navdrawerproductlist" />
+
+        <item
+            android:id="@+id/createproduct"
+            android:checked="false"
+            android:icon="@drawable/ic_kitchen_black"
+            android:title="@string/navdrawercreateproduct" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/productlistdescription" />
+
+            <com.example.shoppapp.NDSpinner
+                android:id="@+id/productliststorespinner"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="showAlertDialogButtonClickedDeleteCurrentProductList"
+                android:textAlignment="center"
+                android:text="@string/buttonDeleteCurrentProductList" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/product_recyclerview"
+                android:layout_width="fill_parent"
+                android:layout_height="295dp">
+
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

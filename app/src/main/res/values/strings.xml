@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- Global App strings -->
+    <string name="app_name">ShoppApp</string>
+
+    <!--Navigation Drawer strings-->
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+    <string name="navdrawerlogInOrSignUp">Log in / Sign up</string>
+    <string name="navdrawershoppinglist">Shopping List</string>
+    <string name="navdrawercreateshoppingitem">Add Shopping Item</string>
+    <string name="navdrawerproductlist">Product list</string>
+    <string name="navdrawercreateproduct">Add Product</string>
+
+    <!-- Log in / Sign up fragment strings -->
+    <string name="textViewLogin">Log in or sign up for ShoppApp</string>
+    <string name="editTextLoginEmail">Email</string>
+    <string name="editTextLoginPassword">Password</string>
+    <string name="buttonLogin">Log in</string>
+    <string name="buttonCreateLogin">Create user</string>
+    <string name="buttonSignOut">Sign out</string>
+    <string name="loggedInAs">Successfully logged in as\n</string>
+    <string name="couldNotLogInUser">Could not log in user</string>
+    <string name="userIsCreated">User is created\n</string>
+    <string name="couldNotCreateUser">Could not create user</string>
+
+    <!-- Shopping list fragment strings -->
+    <string name="shoppingitemdescription">Select a store to retrieve shopping list.\nClick shopping item to put in basket and vice versa.\nHold click on item to delete.</string>
+    <string name="shoppinglist">Shopping list</string>
+    <string name="buttonDeleteCurrentShoppingList">Delete current shopping list</string>
+    <string name="shoppingListAlertBoxTitleText">Delete shopping list</string>
+    <string name="shoppingListAlertBoxText">Are you sure you want to delete current shopping and basket list?</string>
+    <string name="shoppingListAlertBoxPositiveText">Yes</string>
+    <string name="shoppingListAlertBoxNegativeText">No</string>
+    <string name="basket">Basket</string>
+    <string name="shoppingitemAlertBoxTitleText">Delete shopping item</string>
+    <string name="shoppingitemAlertBoxText">Are you sure you want to delete shopping item?</string>
+    <string name="shoppingitemAlertBoxPositiveText">Yes</string>
+    <string name="shoppingitemAlertBoxNegativeText">No</string>
+    <string name="shoppingitemDeleted">Shopping item deleted</string>
+    <string name="shoppingitemOnSaleYes">Yes</string>
+    <string name="shoppingitemOnSaleNo">No</string>
+    <string name="shoppingListDeleted">Shopping list deleted\n</string>
+
+    <!-- Create shopping item fragment strings -->
+    <string name="createshoppingitemshowingshoppinglist">Shopping lists for\n</string>
+    <string name="createshoppingitemfor">Create shopping item for\n</string>
+    <string name="createshoppingitemdescription">Create a shopping to add to your shopping list. Select a store below to retrieve products which can be used to create shopping items.</string>
+    <string name="createshoppingitemshoppingitemname">Item Name:</string>
+    <string name="createshoppingitemshoppingitembrand">Item Brand:</string>
+    <string name="createshoppingitemshoppingitemlocation">Item Location:</string>
+    <string name="createshoppingitemshoppingitemstore">Item Store:</string>
+    <string name="createshoppingitemshoppingitemprice">Item Price:</string>
+    <string name="createshoppingitemshoppingitemonsale">Item OnSale:</string>
+    <string name="createshoppingitembutton">Create Shopping Item</string>
+    <string name="addProductToShoppingListbutton">Add product to shopping list</string>
+    <string name="createshoppingitemfromexistingproduct">Scroll down to create shopping item from existing product</string>
+    <string name="retrieveexistingstore">Retrieve existing store</string>
+    <string name="isaddedtoshoppinglist">\nis added to shopping list</string>
+    <string name="isremovedfromshoppinglist">\nis removed from shopping list</string>
+    <string name="errorremovingnewlycreatedshoppingitem">Error removing newly created shopping item</string>
+
+    <!-- Product list fragment strings -->
+    <string name="productlistdescription">Click a product to view data about that product.\nHold click a button to delete that product.</string>
+    <string name="buttonDeleteCurrentProductList">Delete current product list</string>
+    <string name="productListAlertBoxTitleText">Delete product list</string>
+    <string name="productListAlertBoxText">Are you sure you want to delete current product list?</string>
+    <string name="productListAlertBoxPositiveText">Yes</string>
+    <string name="productListAlertBoxNegativeText">No</string>
+    <string name="productAlertBoxTitleText">Delete product</string>
+    <string name="productAlertBoxText">Are you sure you want to delete product?</string>
+    <string name="productAlertBoxPositiveText">Yes</string>
+    <string name="productAlertBoxNegativeText">No</string>
+    <string name="productDeleted">Product deleted</string>
+
+    <!-- Create Product fragment strings -->
+    <string name="createproductdescription">Create a product to use as template for shopping items. Products are shared among users.</string>
+    <string name="createproductproductname">Product Name:</string>
+    <string name="createproductproductbrand">Product Brand:</string>
+    <string name="createproductproductlocation">Product Location:</string>
+    <string name="createproductproductstore">Product Store:</string>
+    <string name="createproductproductregularprice">Regular Price:</string>
+    <string name="createproductbutton">Create Product</string>
+    <string name="isaddedtoproductlist">\nis added to product list</string>
+    <string name="errorremovingnewlycreatedproduct">Error removing newly created product</string>
+    <string name="isremovedfromproductlist">\nis removed from product list</string>
+
+</resources>

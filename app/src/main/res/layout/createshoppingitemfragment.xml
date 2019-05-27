@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/createshoppingitemscrollview">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/textViewCreateShoppingItemFor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:textSize="14dp"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:textSize="14dp"
+                android:textAlignment="center"
+                android:text="@string/createshoppingitemdescription" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="@string/createshoppingitemshoppingitemname" />
+
+            <EditText
+                android:id="@+id/createshoppingitemname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="@string/createshoppingitemshoppingitembrand" />
+
+            <EditText
+                android:id="@+id/createshoppingitembrand"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="@string/createshoppingitemshoppingitemlocation" />
+
+            <EditText
+                android:id="@+id/createshoppingitemlocation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="@string/createshoppingitemshoppingitemstore" />
+
+            <EditText
+                android:id="@+id/createshoppingitemstore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="@string/createshoppingitemshoppingitemprice" />
+
+            <EditText
+                android:id="@+id/createshoppingitemprice"
+                android:inputType="numberDecimal|numberSigned"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="@string/createshoppingitemshoppingitemonsale" />
+
+            <CheckBox
+                android:id="@+id/createshoppingitemonsale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/createshoppingitembutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/createshoppingitembutton" />
+
+        <View
+            android:layout_height="2dp"
+            android:layout_width="match_parent"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:text="@string/createshoppingitemfromexistingproduct" />
+
+        <com.example.shoppapp.NDSpinner
+            android:id="@+id/productToShoppingItem_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/productToShoppingItem_recyclerview"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:background="#ADD8E6">
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+</ScrollView>
